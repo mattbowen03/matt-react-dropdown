@@ -1,5 +1,6 @@
 import './App.css';
 import { Greeting } from "./Greeting.js"
+import React from 'react';
 
 function App() {
   return (
