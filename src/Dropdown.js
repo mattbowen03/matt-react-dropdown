@@ -5,6 +5,7 @@ export class Dropdown extends React.Component {
     super(props);
     this.state = {value: "select"};
     this.handleChange = this.handleChange.bind(this);
+    console.log(this)
   }
 
   handleChange(event) {
